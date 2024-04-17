@@ -1,0 +1,12 @@
+[dependencies]
+starknet = ">=2.2.0"
+
+[package]
+name="starknetcairoerc20"
+authors = ["Warku <warku@sina.cn>"]
+cairo-version = "2.2.0"
+version = "0.1.0"
+
+[[target.starknet-contract]]
+casm = true
+sierra = true
